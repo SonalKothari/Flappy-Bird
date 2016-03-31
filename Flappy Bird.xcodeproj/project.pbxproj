@@ -14,6 +14,11 @@
 		4A92631A1C5B8776003D419A /* Flappy_Bird.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 4A9263181C5B8776003D419A /* Flappy_Bird.xcdatamodeld */; };
 		4A92631C1C5B8776003D419A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4A92631B1C5B8776003D419A /* Assets.xcassets */; };
 		4A92631F1C5B8776003D419A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4A92631D1C5B8776003D419A /* LaunchScreen.storyboard */; };
+		4A92632A1C5B8999003D419A /* Bird Down.png in Resources */ = {isa = PBXBuildFile; fileRef = 4A9263261C5B8999003D419A /* Bird Down.png */; };
+		4A92632B1C5B8999003D419A /* Bird Up.png in Resources */ = {isa = PBXBuildFile; fileRef = 4A9263271C5B8999003D419A /* Bird Up.png */; };
+		4A92632C1C5B8999003D419A /* GameBackground.png in Resources */ = {isa = PBXBuildFile; fileRef = 4A9263281C5B8999003D419A /* GameBackground.png */; };
+		4A92632D1C5B8999003D419A /* Tunnel.png in Resources */ = {isa = PBXBuildFile; fileRef = 4A9263291C5B8999003D419A /* Tunnel.png */; };
+		4A9263301C5B8B7B003D419A /* Game.m in Sources */ = {isa = PBXBuildFile; fileRef = 4A92632F1C5B8B7B003D419A /* Game.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -28,6 +33,12 @@
 		4A92631B1C5B8776003D419A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		4A92631E1C5B8776003D419A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		4A9263201C5B8776003D419A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4A9263261C5B8999003D419A /* Bird Down.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Bird Down.png"; sourceTree = "<group>"; };
+		4A9263271C5B8999003D419A /* Bird Up.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Bird Up.png"; sourceTree = "<group>"; };
+		4A9263281C5B8999003D419A /* GameBackground.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = GameBackground.png; sourceTree = "<group>"; };
+		4A9263291C5B8999003D419A /* Tunnel.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Tunnel.png; sourceTree = "<group>"; };
+		4A92632E1C5B8B7B003D419A /* Game.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Game.h; sourceTree = "<group>"; };
+		4A92632F1C5B8B7B003D419A /* Game.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Game.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -65,6 +76,8 @@
 				4A9263121C5B8776003D419A /* ViewController.h */,
 				4A9263131C5B8776003D419A /* ViewController.m */,
 				4A9263151C5B8776003D419A /* Main.storyboard */,
+				4A92632E1C5B8B7B003D419A /* Game.h */,
+				4A92632F1C5B8B7B003D419A /* Game.m */,
 				4A92631B1C5B8776003D419A /* Assets.xcassets */,
 				4A92631D1C5B8776003D419A /* LaunchScreen.storyboard */,
 				4A9263201C5B8776003D419A /* Info.plist */,
@@ -77,6 +90,10 @@
 		4A92630C1C5B8776003D419A /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				4A9263261C5B8999003D419A /* Bird Down.png */,
+				4A9263271C5B8999003D419A /* Bird Up.png */,
+				4A9263281C5B8999003D419A /* GameBackground.png */,
+				4A9263291C5B8999003D419A /* Tunnel.png */,
 				4A92630D1C5B8776003D419A /* main.m */,
 			);
 			name = "Supporting Files";
@@ -139,8 +156,12 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4A92632D1C5B8999003D419A /* Tunnel.png in Resources */,
 				4A92631F1C5B8776003D419A /* LaunchScreen.storyboard in Resources */,
+				4A92632C1C5B8999003D419A /* GameBackground.png in Resources */,
+				4A92632A1C5B8999003D419A /* Bird Down.png in Resources */,
 				4A92631C1C5B8776003D419A /* Assets.xcassets in Resources */,
+				4A92632B1C5B8999003D419A /* Bird Up.png in Resources */,
 				4A9263171C5B8776003D419A /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -152,6 +173,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4A9263301C5B8B7B003D419A /* Game.m in Sources */,
 				4A92631A1C5B8776003D419A /* Flappy_Bird.xcdatamodeld in Sources */,
 				4A9263141C5B8776003D419A /* ViewController.m in Sources */,
 				4A9263111C5B8776003D419A /* AppDelegate.m in Sources */,

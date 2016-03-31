@@ -16,6 +16,10 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
+    
+    HighScore = [[NSUserDefaults standardUserDefaults] integerForKey:@"HighScoreSaved"];    HighScoreLabel.text = [NSString stringWithFormat:@"High Score : %li", HighScore];
+
+    
     // Do any additional setup after loading the view, typically from a nib.
 }
 
